@@ -2222,6 +2222,7 @@ rule webshell_php_by_string_known_webshell
 		hash = "d889da22893536d5965541c30896f4ed4fdf461d"
 		hash = "10f4988a191774a2c6b85604344535ee610b844c1708602a355cf7e9c12c3605"
 		hash = "7b6471774d14510cf6fa312a496eed72b614f6fc"
+		hash = "c889cad79b2aa6f76a842bd58c2808605a8fa72003ab2ee5fa766ccb7a85593e"
 
 	strings:
 		$pbs1 = "b374k shell" wide ascii
@@ -2255,6 +2256,7 @@ rule webshell_php_by_string_known_webshell
         $pbs61 = "~+d()\"^\"!{+{}"
         $pbs62 = "use function \\eval as "
         $pbs63 = "use function \\assert as "
+		$pbs64 = "*/\"%2F%5C%28.%2A%24%2F\"/*"
 
 		$front1 = "<?php eval(" nocase wide ascii
 	
