@@ -1469,13 +1469,13 @@ rule WEBSHELL_PHP_OBFUSC_Fopo
 rule WEBSHELL_PHP_Gzinflated
 {
     meta:
-        description = "PHP webshell which directly eval()s obfuscated string"
+        description = "Detects potential PHP webshells which directly eval()s obfuscated string"
         license = "Detection Rule License 1.1 https://github.com/Neo23x0/signature-base/blob/master/LICENSE"
         author = "Arnim Rupp (https://github.com/ruppde)"
         reference = "Internal Research"
-        score = 75
+        score = 60
         date = "2021/01/12"
-        modified = "2023-07-05"
+        modified = "2026-03-09"
         hash = "49e5bc75a1ec36beeff4fbaeb16b322b08cf192d"
         hash = "6f36d201cd32296bad9d5864c7357e8634f365cc"
         hash = "ab10a1e69f3dfe7c2ad12b2e6c0e66db819c2301"
